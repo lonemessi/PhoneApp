@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/appicon"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/appname"
+        android:gravity="center"
+        android:text="wangyi云音乐"
+        android:layout_width="0dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/appversion"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="2.2.0"
+        android:gravity="center"/>
+
+</LinearLayout>
